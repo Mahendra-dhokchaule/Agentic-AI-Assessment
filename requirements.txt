@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-community
+langchain-core
+langchain-chroma
+langchain-ollama
+langchain-text-splitters
+chromadb
+pydantic
+ollama
+python-dotenv
+streamlit

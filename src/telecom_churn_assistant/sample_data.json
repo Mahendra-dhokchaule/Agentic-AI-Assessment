@@ -1,0 +1,95 @@
+{
+  "customers": [
+    {
+      "customerId": "CUST-1001",
+      "planAndTenure": {
+        "plan": "Postpaid Rs 599",
+        "tenure": "4 years",
+        "verified": true
+      },
+      "recentSignalsLast30Days": {
+        "droppedCallTickets": [
+          "TKT-5521",
+          "TKT-5540",
+          "TKT-5562"
+        ],
+        "issue": "3 dropped-call tickets from the same cell",
+        "dataUsageChange": "-35%",
+        "verified": true
+      },
+      "note": {
+        "description": "Clean baseline; draft agent note",
+        "noteId": "NOTE-77",
+        "verified": false
+      }
+    },
+    {
+      "customerId": "CUST-1002",
+      "planAndTenure": {
+        "plan": "Postpaid Rs 999",
+        "tenure": "2 years",
+        "verified": true
+      },
+      "recentSignalsLast30Days": {
+        "billingIssue": {
+          "type": "Roaming double charge",
+          "amount": 1240
+        },
+        "ticketId": "TKT-6610",
+        "ticketStatus": "Resolved",
+        "followUpCall": "CALL-8821",
+        "customerFeedback": "Charge still appears on the bill",
+        "verified": true
+      },
+      "note": "Conflict: ticket vs later call"
+    },
+    {
+      "customerId": "CUST-1003",
+      "planAndTenure": {
+        "plan": "Prepaid Rs 299",
+        "tenure": "1 year",
+        "verified": true
+      },
+      "recentSignalsLast30Days": {
+        "complaints": [
+          "Slow-data complaint"
+        ],
+        "usageStatus": "Stable",
+        "verified": true
+      },
+      "note": "Low-risk baseline"
+    },
+    {
+      "customerId": "CUST-1004",
+      "planAndTenure": {
+        "plan": "Postpaid Family Rs 1499",
+        "tenure": "6 years",
+        "verified": true
+      },
+      "recentSignalsLast30Days": {
+        "callId": "CALL-9034",
+        "mentions": [
+          "Competitor offer",
+          "Port-out request"
+        ],
+        "retentionRequest": "50% off for 6 months",
+        "verified": true
+      },
+      "note": "Exception path"
+    },
+    {
+      "customerId": "CUST-1005",
+      "planAndTenure": {
+        "plan": "Postpaid Rs 799",
+        "tenure": "3 years",
+        "verified": true
+      },
+      "recentSignalsLast30Days": {
+        "interactions": "No interactions in 90 days",
+        "availableData": "Plan metadata only",
+        "verified": true
+      },
+      "note": "Absent data"
+    }
+  ]
+}
